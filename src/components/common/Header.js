@@ -54,7 +54,7 @@ const StyledLink = styled(Link)`
     box-sizing: border-box;
     margin: auto 0;
     font-weight: ${p => p.isActive ? 'bold' : 'normal'};
-    color: black;
+    color: ${p => p.theme.bodyFontColor};
 `
 
 const MobileMenuIcon = styled.div`
