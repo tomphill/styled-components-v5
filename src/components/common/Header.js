@@ -25,7 +25,7 @@ const Menu = styled.nav`
     padding: 8px;
     box-sizing: border-box;
     border-bottom: 3px solid ${p => p.theme.secondaryColor};
-    background: white;
+    background: ${p => p.theme.bodyBackgroundColor};
 
     @media(min-width: 768px){
         display: flex;
@@ -65,7 +65,7 @@ const MobileMenuIcon = styled.div`
 
     >div{
         height: 3px;
-        background: black;
+        background: ${p => p.theme.bodyFontColor};
         margin: 5px 0;
         width: 100%;
     }
