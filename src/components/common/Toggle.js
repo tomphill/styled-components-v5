@@ -24,7 +24,6 @@ const Notch = styled.div`
 `
 
 export function Toggle({isActive, onToggle}){
-    console.log(isActive);
     return (
         <ToggleWrapper onClick={onToggle}>
             <Notch isActive={isActive} />
